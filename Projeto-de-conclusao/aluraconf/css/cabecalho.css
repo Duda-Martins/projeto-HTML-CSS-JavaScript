@@ -1,0 +1,58 @@
+.cabecalho {
+    background: url('../img/destaque.jpeg') no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+    padding-bottom: 44px;
+}
+
+.cabecalho-nav__ul {
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho-nav__item {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin: 0 2px 32px 0;
+    padding: .8em;
+    transition: background-color .5s;
+    font-size: 1.3em;
+}
+
+.cabecalho-nav__link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cabecalho-nav__item:hover {
+    background-color: #50A3A7;
+}
+
+.evento__titulo {
+    text-align: center;
+    font-size: 3.5em;
+    color: white;
+    text-shadow: black 4px 4px 10px;
+    margin-bottom: .1em;
+    text-transform: uppercase;
+}
+
+.evento__subtitulo {
+    text-align: center;
+    font-size: 3em;
+    color: #64ff64;
+    text-shadow: black 4px 4px 10px;
+    text-transform: uppercase;
+}
+
+.inscrever {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 983px){
+    .evento {
+        font-size: 27px;
+    }
+}

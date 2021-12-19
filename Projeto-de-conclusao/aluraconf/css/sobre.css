@@ -1,0 +1,22 @@
+.sobre {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sobre__titulo {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.sobre__subtitulo {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.sobre__paragrafo {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 35px;
+}

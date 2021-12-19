@@ -1,0 +1,15 @@
+.inscricao {
+    margin: 1em 2em 3em;
+}
+
+.inscricao__titulo {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: .5em;
+    color: coral;
+    text-transform: uppercase;
+}
+
+.inscricao__botao {
+    text-align: center;
+}
